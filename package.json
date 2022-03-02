@@ -1,0 +1,27 @@
+{
+  "name": "node-js-api",
+  "version": "1.0.0",
+  "description": "api node js mongo by farriqmfq",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "api",
+    "mongo"
+  ],
+  "author": "farriqmfq",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  }
+}
