@@ -8,7 +8,7 @@ a simple api make with node js and mongo
 ## How to use 
 - Clone this repository 👇
 ```
-https://github.com/Farriq-mfq/node-js-api.git
+git clone https://github.com/Farriq-mfq/node-js-api.git
 ```
 - Setting database url on env file with name  `databseurl`
 - Run server with `npm start`
