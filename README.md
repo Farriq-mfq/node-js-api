@@ -1,37 +1,40 @@
 # Simple node js api 🛴
+
 a simple api make with node js and mongo
+
 ## Server command
-  ```
-  npm start
-  ```
-  
-## How to use 
+
+```
+npm start
+```
+
+## How to use
+
+- Run command `npm install`
+
 - Clone this repository 👇
+
 ```
 git clone https://github.com/Farriq-mfq/node-js-api.git
 ```
-- Setting database url on env file with name  `databseurl`
+
+- Setting database url on env file with name `databseurl`
 - Run server with `npm start`
 
 ## Endpoint
+
 ### Baseurl endponit and response
-- / => Response 👇 
 
-``
-{
-    "message": "welcome to my api 😀😀"
-}
-``
+- / => Response 👇
 
-- /api => Response 👇 
+`{ "message": "welcome to my api 😀😀" }`
 
-``
-{
-    "message": "😏😏😏😏"
-}
-``
+- /api => Response 👇
+
+`{ "message": "😏😏😏😏" }`
 
 ### Api book endpoint
+
 - /book `GET`
 - /book `POST`
 - /book/:id `PUT`
