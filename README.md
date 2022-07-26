@@ -10,13 +10,13 @@ npm start
 
 ## How to use
 
-- Run command `npm install`
-
 - Clone this repository 👇
 
 ```
 git clone https://github.com/Farriq-mfq/node-js-api.git
 ```
+
+- Run command `npm install`
 
 - Setting database url on env file with name `databseurl`
 - Run server with `npm start`
